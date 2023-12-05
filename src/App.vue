@@ -165,7 +165,7 @@ const toPage = (url) =>{
     <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br><br>
   </div>
 
-  <div class="z-10 flex">
+  <div class="z-10 flex justify-center">
     <button class="slide_button mt-96">&lt</button>
 
 
@@ -208,36 +208,37 @@ const toPage = (url) =>{
   <!-- page4 -->
   <br><br><br><br>
   <div class="absolute left-0 w-full bg-[#fafafc]"> 
-    <br><br><br><br>
-    <div class="flex ml-20">
-      <button class="text-sm font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4">试题资源</button>
-      <button class="text-sm font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4">试卷资源</button>
-      <button class="text-sm font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4">知识单元</button>
-      <button class="text-sm font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4 ">教材教辅</button>
-    </div>
-    <div class="flex"> 
-      <div class="border rounded-xl shadow-md w-2/5 h-[360px] ml-24 mt-8 bg-white">
-          <!-- 图表切换 -->
-          <div class="flex ">
-            <p class="m-4 text-lg font-bold text-left">各学科数据统计</p>
-            <button class="h-8 mt-3 ml-48 text-xs bg-slate-300 text-sky-800 w-28">显示学段细分</button>
-          </div>
-          <div>
-            <p class="ml-8 leading-8 text-gray-400">各学科数据统计</p>
-            <img src="./assets/gram.png" alt="gram"  class="mt-6 ml-10 w-96">
-          </div>
+
+    <div class="flex w-[1280px] h-[640px] justify-center items-center mt-[200px] border"><!-- justify-item-center 无效-->
+      <div class="w-[640px] h-[560px]">
+        <div class="flex h-10 w-160">
+          <button class="text-lg font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4">试题资源</button>
+          <button class="text-lg font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4">试卷资源</button>
+          <button class="text-lg font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4">知识单元</button>
+          <button class="text-lg font-bold font-heiti hover:border-none hover:underline hover:underline-offset-4 ">教材教辅</button>
+        </div>
+        <div class="mt-10 bg-white border shadow-md rounded-xl w-160 h-[520px]"> 
+            <!-- 图表切换 -->
+            <div class="flex justify-start mt-5 ml-5">
+              <button class="h-8 text-xs bg-slate-300 text-sky-800 w-28">显示学段细分</button>
+            </div>
+            <div class="mt-16"> 
+              <p class="ml-8 font-bold leading-8 text-md">各学科数据统计</p>
+              <img src="./assets/gram.png" alt="gram"  class="mt-6 ml-10">
+            </div>
+        </div>
       </div>
-      <div>
-        <div class="flex mt-32 ml-8">
+      <div class="w-[610px] h-[297px] ml-10 mt-60">
+        <div class="flex">
             <p class="text-2xl font-bold text-transparent bg-gradient-to-r from-red-500 to-yellow-300 bg-clip-text">海量</p>
             <p class="text-2xl font-bold">教学资源，</p>
             <p class="text-2xl font-bold text-transparent bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text">智能</p> 
             <p class="text-2xl font-bold">处理</p>
-                   
+                  
 
         </div>
-        <div class="mt-8">
-            <p class="ml-8 leading-8 text-left text-gray-500">海量标准化、体系化的教学资源<br>基于高效准确的试题相似度评估算法的高质量资源库<br>智能与个性化的资源录入、查询和管理服务</p>
+        <div>
+            <p class="leading-8 text-left text-gray-500">海量标准化、体系化的教学资源<br>基于高效准确的试题相似度评估算法的高质量资源库<br>智能与个性化的资源录入、查询和管理服务</p>
         </div>
         <div>
         <!-- 对应的按钮 -->
@@ -250,32 +251,34 @@ const toPage = (url) =>{
   <!-- page5 -->
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br>
-  
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   
   <div class="absolute left-0 bg-gradient-to-br-to-r -z-10 from-[#fef5f6] to-[#e0e4f5] w-full">
     <br> <br> <br> <br>
-    <div class="flex"> 
-      <div class="ml-28">
-        <div class="flex mt-32 ml-8">
-            <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-cyan-600 to-cyan-200 bg-clip-text">多元</p>
-            <p class="text-3xl font-bold">知识点，</p>
-            <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-fuchsia-500 to-indigo-600 bg-clip-text">直观</p> 
-            <p class="text-3xl font-bold">呈现</p>
-                   
+    <div class="flex justify-center">
+      <div class="flex"> 
+        <div class="ml-28">
+          <div class="flex mt-32 ml-8">
+              <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-cyan-600 to-cyan-200 bg-clip-text">多元</p>
+              <p class="text-3xl font-bold">知识点，</p>
+              <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-fuchsia-500 to-indigo-600 bg-clip-text">直观</p> 
+              <p class="text-3xl font-bold">呈现</p>
+                    
 
+          </div>
+          <div class="mt-8">
+              <p class="ml-8 leading-8 text-left text-gray-500">知识点智能化组织与展示<br>结构清晰，辅助学生梳理知识<br>前驱后继、共同学习和层级关系三种知识关系展示</p>
+          </div>
+          <div class="flex mt-8">
+            <img src="./assets/folder.svg" class="z-40 w-6 ml-8">
+            <button class="bg-[#578bc3] text-white -ml-8 pl-10">立即前往</button>
+          </div>
+        </div>  
+        <div class="border rounded-xl shadow-md w-96 h-[360px] ml-24 mt-8 bg-white">
+            <img src="./assets/map.png" alt="map" class="mt-6">
+            <p class="text-lg font-bold">三角函数</p>
+            <p class="px-6 pt-4 text-sm leading-6 text-gray-400">三角函数是基本初等函数之一，是以角度（数学上最常用弧度制，下同）为自变量，角度对应任意角终边与单位圆交点坐标或其比值为因变量的函数...</p>
         </div>
-        <div class="mt-8">
-            <p class="ml-8 leading-8 text-left text-gray-500">知识点智能化组织与展示<br>结构清晰，辅助学生梳理知识<br>前驱后继、共同学习和层级关系三种知识关系展示</p>
-        </div>
-        <div class="flex mt-8">
-          <img src="./assets/folder.svg" class="z-40 w-6 ml-8">
-          <button class="bg-[#578bc3] text-white -ml-8 pl-10">立即前往</button>
-        </div>
-      </div>  
-      <div class="border rounded-xl shadow-md w-96 h-[360px] ml-24 mt-8 bg-white">
-          <img src="./assets/map.png" alt="map" class="mt-6">
-          <p class="text-lg font-bold">三角函数</p>
-          <p class="px-6 pt-4 text-sm leading-6 text-gray-400">三角函数是基本初等函数之一，是以角度（数学上最常用弧度制，下同）为自变量，角度对应任意角终边与单位圆交点坐标或其比值为因变量的函数...</p>
       </div>
     </div>
     <br> <br> <br> <br><br> <br> <br> <br>
@@ -283,55 +286,56 @@ const toPage = (url) =>{
 
   <!-- page6 -->
   <br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br><br> <br> <br><br><br><br><br><br>
-  <div class="absolute left-0 w-full -z-10 bg-[#fafafc]">
-
-    <div class="flex mt-48 ml-20">
-      <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-pink-500 to-pink-700 bg-clip-text">特色</p>
-      <p class="text-3xl font-bold">教育功能，</p>
-      <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-red-500 to-indigo-600 bg-clip-text">倾力</p> 
-      <p class="text-3xl font-bold">打造</p>
-    </div>
-    
-    <div class="z-10 flex mt-8 ml-14">
-      <div class="ml-6">
-        <img src="./assets/pic-1.png" alt="2023-analysis" class="w-[220px] rounded-t-3xl">
-        
-        <div class="border h-46 w-[220px] text-left rounded-b-3xl shadow-md px-2 py-2">
-          <p class="font-bold text-left text-black ">试卷分析</p>
-          <p class="py-2 text-xs leading-6 text-left text-gray-400 w-52">2使用人工智能和数据挖掘技术在多个层次和维度上分析试卷，如各题型占比、知识点分值和难度变化</p>
-          <p class="text-blue-400 text-md">了解更多→</p>
-        </div>
-        
+  <div class="absolute left-0 w-full h-[1000px] -z-10 bg-[#fafafc]">
+    <div class="flex flex-col items-center ">
+      <div class="flex items-start mt-48 ml-20 w-[1328px] ">
+        <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-pink-500 to-pink-700 bg-clip-text">特色</p>
+        <p class="text-3xl font-bold">教育功能，</p>
+        <p class="text-3xl font-bold text-transparent bg-gradient-to-r from-red-500 to-indigo-600 bg-clip-text">倾力</p> 
+        <p class="text-3xl font-bold">打造</p>
       </div>
-
-      <div class="ml-5">
-        <img src="./assets/pic-2.png" alt="2022-analysis" class="w-[220px] rounded-t-3xl">
-            
-        <div class="border h-46  w-[220px] text-left rounded-b-3xl shadow-md px-2 py-2">
-          <p class="font-bold text-left text-black">组卷系统</p>
-        <p class="py-2 text-xs leading-6 text-left text-gray-400 w-52">智能组卷系统提供丰富的选题方式，自动组卷，以及个性化试卷和答题卡编辑、预览与下载功能。</p>
-        
-        <p class="text-blue-400 text-md">了解更多→</p>
+      
+      <div class="z-10 flex mt-8 ml-14 w-[1328px] h-[448px]">
+        <div class="ml-6 w-[300px] h-100 ">
+          <img src="./assets/pic-1.png" alt="2023-analysis" class="w-[300px] h-[150px]  rounded-t-3xl mt-10">
+          
+          <div class="h-46 w-[300px] h-60 text-left rounded-b-3xl shadow-md bg-white  px-2 py-2">
+            <p class="px-2 mt-2 text-2xl font-bold text-left text-black">试卷分析</p>
+            <p class="px-2 text-lg text-left text-gray-400 w-[300px] mt-4">使用人工智能和数据挖掘技术在多个层次和维度上分析试卷，如各题型占比、知识点分值和难度变化</p>
+            <p class="px-2 mt-10 text-lg text-blue-400">了解更多→</p>
+          </div>
+          
         </div>
-        
-      </div>
-      <div class="ml-5">
-        <img src="./assets/pic-3.png" alt="2021-analysis" class="w-[220px] rounded-t-3xl">
-        <div class="border h-46 w-[220px] text-left rounded-b-3xl shadow-md p-2">
-          <p class="font-bold text-left text-black">试题属性预估</p>
-          <p class="py-2 text-xs leading-6 text-left text-gray-400 w-52">可视化界面对试题进行基本属性、知识点、知识树状结构等进行预估，为试题分类管理带来便捷。</p>
-         
-          <p class="text-blue-400 text-md">立即前往→</p>
+
+        <div class="ml-5 w-[300px] h-100">
+          <img src="./assets/pic-2.png" alt="2022-analysis" class=" mt-10 w-[300px] h-[150px] rounded-t-3xl">
+              
+          <div class="h-46  w-[300px] h-60 text-left rounded-b-3xl bg-white shadow-md px-2 py-2">
+            <p class="px-2 mt-2 text-2xl font-bold text-left text-black">组卷系统</p>
+            <p class="px-2 text-lg text-left text-gray-400 w-[300px] mt-4">智能组卷系统提供丰富的选题方式，自动组卷，以及个性化试卷和答题卡编辑、预览与下载功能。</p>
+          
+          <p class="px-2 mt-10 text-lg text-blue-400">了解更多→</p>
+          </div>
+          
         </div>
-      </div>
+        <div class="ml-5 w-[300px] h-100 ">
+          <img src="./assets/pic-3.png" alt="2021-analysis" class="mt-10 w-[300px] h-[150px]  rounded-t-3xl">
+          <div class="h-46 w-[300px] h-60  text-left rounded-b-3xl shadow-md p-2 bg-white">
+            <p class="px-2 mt-2 text-2xl font-bold text-left text-black">试题属性预估</p>
+            <p class="px-2 text-lg text-left text-gray-400 w-[300px] mt-4">可视化界面对试题进行基本属性、知识点、知识树状结构等进行预估，为试题分类管理带来便捷。</p>
+          
+            <p class="px-2 mt-10 text-lg text-blue-400">立即前往→</p>
+          </div>
+        </div>
 
 
-      <div class="ml-5">
-        <img src="./assets/pic-4.png" alt="2020-analysis" class="w-[220px] rounded-t-3xl">
-        <div class="border h-46 w-[220px] text-left rounded-b-3xl shadow-md p-2">
-          <p class="font-bold text-left text-black">智能教辅平台</p>
-          <p class="py-2 text-xs leading-6 text-left text-gray-400 w-52">深层次多维度海量教育资源分析，个性化资源管理、组织功能，为教师提供智能化教学服务</p>
-          <p class="text-blue-400 text-md">立即前往→</p>
+        <div class="ml-5 w-[300px] h-100">
+          <img src="./assets/pic-4.png" alt="2020-analysis" class="mt-10 w-[300px] h-[150px] rounded-t-3xl">
+          <div class="border h-46 w-[300px] h-60  text-left rounded-b-3xl shadow-md p-2 bg-white">
+            <p class="px-2 mt-2 text-2xl font-bold text-left text-black">智能教辅平台</p>
+            <p class="px-2 text-lg text-left text-gray-400 w-[300px] mt-4">深层次多维度海量教育资源分析，个性化资源管理、组织功能，为教师提供智能化教学服务</p>
+            <p class="px-2 mt-10 text-lg text-blue-400">立即前往→</p>
+          </div>
         </div>
       </div>
     </div>
@@ -339,94 +343,96 @@ const toPage = (url) =>{
   </div>
 
   <!-- page7 -->
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <div class="absolute left-0 w-full -z-10 bg-gradient-to-br-to-r from-[#f9fdf5] to-[#eef0fa]">
-    <div class="flex mt-20 ml-20">
-      <p class="text-3xl font-bold text-transparent bg-gradient-to-br from-sky-500 to-cyan-300 bg-clip-text">AI</p>
-      <p class="text-3xl font-bold">实验室，打造</p>
-      <p class="text-3xl font-bold text-transparent bg-gradient-to-b from-pink-500 to-orange-500 bg-clip-text">开源生态</p> 
-    </div>
-    <div class="flex justify-center mt-10">
-      <div class="border h-[640px] w-[610px] bg-white shadow-lg rounded-2xl mr-5">
-        <p class="mt-10 text-2xl font-bold">特色教育功能开放体验</p>
-        <span class="mt-20 ml-20">
-          <!-- <p class="text-gray-400">LUNA团队依托领先的技术实力，为用户提供</p>
-          <p class="font-bold">高品质</p>
-          <p class="text-gray-400">的教育产品及服务，目前推出了包括图片转写、 属性预估等多款</p>
-          <p class="font-bold">在线服务</p>
-          <p class="text-gray-400">，旨在为用户提供智能练习、难题解析等</p>
-          <p class="font-bold">多元化</p>
-          <p class="text-gray-400">的智能教育服务。</p> -->
-          <p class="mx-10 text-gray-400">LUNA团队依托领先的技术实力，为用户提供高品质的的教育产品及服务，目前推出了包括图片转写、 属性预估等多款在线服务，旨在为用户提供智能练习、难题解析等多元化的智能教育服务。</p>
-        </span>
-        <div class="flex mt-[16px]">
-          <div class="w-[260px] h-[166px] border rounded-[10px] ml-[33px] bg-gradient-to-br from-[#FCFCFC]/48 to-[#E9EFFC]/100">
-            <div class="flex">
-              <div class="rounded-full w-[5px] h-6 bg-[#4E89FF] mt-6 ml-5"></div>
-              <p class="mt-6 ml-2 font-bold text-md">试卷分析</p>
-            </div>
-            
-            <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md">使用人工智能和数据挖掘技术在多个层次和维度上分析试卷</p>
-            
-            <div class="bg-[#609CE2] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
-          </div>
-          <div class="w-[260px] h-[166px] border rounded-[10px] ml-[24px] bg-gradient-to-br from-[#FCFCFC] to-[#FBEED4]/100">
-            <div class="flex">
-              <div class="rounded-full w-[5px] h-6 bg-[#FFAF4E] mt-6 ml-5"></div>
-              <p class="mt-6 ml-2 font-bold text-md">图片转写</p>
-            </div>
-            
-            <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md text-left">精准识别试题照片中的文字、公式以及附图附表，适用于试题录入</p>
-            
-            <div class="bg-[#E2A760] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
-
-            
-          </div>
-        </div>
-        <div class="flex mt-[24px]">
-          <div class="w-[260px] h-[166px] border rounded-[10px] ml-[33px] bg-gradient-to-br from-[#FCFCFC]/0 to-[#FFF8FF]/100">
-            <div class="flex">
-              <div class="rounded-full w-[5px] h-6 bg-[#A64EFF] mt-6 ml-5"></div>
-              <p class="mt-6 ml-2 font-bold text-md">属性预估</p>
-            </div>
-            
-            <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md text-left">从包含复杂语义的试题文本出发挖掘试题的难度、区分度等属性</p>
-            
-            <div class="bg-[#A160E2] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
-
-          </div>
-          <div class="w-[260px] h-[166px] border rounded-[10px] ml-[24px] bg-gradient-to-br from-[#FAFFF9] to-[#FCFCFC]">
-            <div class="flex">
-              <div class="rounded-full w-[5px] h-6 bg-[#74E149] mt-6 ml-5"></div>
-              <p class="mt-6 ml-2 font-bold text-md">相似度估计</p>
-            </div>
-            
-            <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md text-left">基于人工智能算法给出两个题目之间的多维度相似度预估</p>
-            
-            <div class="bg-[#85E260] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
-
-
-          </div>
-        </div>
-
-
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="absolute left-0 w-full h-[1000px] -z-10 bg-gradient-to-r from-[#FCFCFC] to-[#E9EFFC]/100">
+    <div class="flex flex-col items-center  h-[760px]">
+      <div class="flex mt-20 ml-20 w-[1280px]">
+        <p class="text-3xl font-bold text-transparent bg-gradient-to-br from-sky-500 to-cyan-300 bg-clip-text">AI</p>
+        <p class="text-3xl font-bold">实验室，打造</p>
+        <p class="text-3xl font-bold text-transparent bg-gradient-to-b from-pink-500 to-orange-500 bg-clip-text">开源生态</p> 
       </div>
-      <div class="border h-[640px] w-[610px] bg-white shadow-lg rounded-3xl ml-[40px]">
-        <p class="mt-10 text-2xl font-bold">EduX开源工具集</p>
-        <p class="mx-10 mt-8 text-gray-400">LUNA团队设计的用于数据挖掘的开源工具集合</p>
-        <div class="flex justify-center mt-4 ">
-          <a href="https://github.com/bigdata-ustc/EduNLP" class="font-bold text-blue-400">EduNLP</a>
-          <p class="text-blue-400">·</p>
-          <a href="https://github.com/bigdata-ustc/EduData" class="font-bold text-blue-400">EduData</a>
-          <p class="text-blue-400">·</p>
-          <a href="https://github.com/bigdata-ustc/EduCDM" class="font-bold text-blue-400">EduCDM</a>
-          <p class="text-blue-400">·</p>
-          <a href="https://github.com/bigdata-ustc/EduKTM" class="font-bold text-blue-400">EduKTM</a>
+      <div class="flex justify-center mt-10">
+        <div class="border h-[640px] w-[610px] bg-white shadow-lg rounded-2xl mr-5">
+          <p class="mt-10 text-2xl font-bold">特色教育功能开放体验</p>
+          <span class="mt-20 ml-20">
+            <!-- <p class="text-gray-400">LUNA团队依托领先的技术实力，为用户提供</p>
+            <p class="font-bold">高品质</p>
+            <p class="text-gray-400">的教育产品及服务，目前推出了包括图片转写、 属性预估等多款</p>
+            <p class="font-bold">在线服务</p>
+            <p class="text-gray-400">，旨在为用户提供智能练习、难题解析等</p>
+            <p class="font-bold">多元化</p>
+            <p class="text-gray-400">的智能教育服务。</p> -->
+            <p class="mx-10 text-gray-400">LUNA团队依托领先的技术实力，为用户提供高品质的的教育产品及服务，目前推出了包括图片转写、 属性预估等多款在线服务，旨在为用户提供智能练习、难题解析等多元化的智能教育服务。</p>
+          </span>
+          <div class="flex mt-[16px]">
+            <div class="w-[260px] h-[166px] border rounded-[10px] ml-[33px] bg-gradient-to-br from-[#FCFCFC]/48 to-[#E9EFFC]/100">
+              <div class="flex">
+                <div class="rounded-full w-[5px] h-6 bg-[#4E89FF] mt-6 ml-5"></div>
+                <p class="mt-6 ml-2 font-bold text-md">试卷分析</p>
+              </div>
+              
+              <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md">使用人工智能和数据挖掘技术在多个层次和维度上分析试卷</p>
+              
+              <div class="bg-[#609CE2] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
+            </div>
+            <div class="w-[260px] h-[166px] border rounded-[10px] ml-[24px] bg-gradient-to-br from-[#FCFCFC] to-[#FBEED4]/100">
+              <div class="flex">
+                <div class="rounded-full w-[5px] h-6 bg-[#FFAF4E] mt-6 ml-5"></div>
+                <p class="mt-6 ml-2 font-bold text-md">图片转写</p>
+              </div>
+              
+              <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md text-left">精准识别试题照片中的文字、公式以及附图附表，适用于试题录入</p>
+              
+              <div class="bg-[#E2A760] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
+
+              
+            </div>
+          </div>
+          <div class="flex mt-[24px]">
+            <div class="w-[260px] h-[166px] border rounded-[10px] ml-[33px] bg-gradient-to-br from-[#FCFCFC]/0 to-[#FFF8FF]/100">
+              <div class="flex">
+                <div class="rounded-full w-[5px] h-6 bg-[#A64EFF] mt-6 ml-5"></div>
+                <p class="mt-6 ml-2 font-bold text-md">属性预估</p>
+              </div>
+              
+              <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md text-left">从包含复杂语义的试题文本出发挖掘试题的难度、区分度等属性</p>
+              
+              <div class="bg-[#A160E2] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
+
+            </div>
+            <div class="w-[260px] h-[166px] border rounded-[10px] ml-[24px] bg-gradient-to-br from-[#FAFFF9] to-[#FCFCFC]">
+              <div class="flex">
+                <div class="rounded-full w-[5px] h-6 bg-[#74E149] mt-6 ml-5"></div>
+                <p class="mt-6 ml-2 font-bold text-md">相似度估计</p>
+              </div>
+              
+              <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mb-5 mt-2.5 text-md text-left">基于人工智能算法给出两个题目之间的多维度相似度预估</p>
+              
+              <div class="bg-[#85E260] rounded-full h-5 w-5 ml-56 mb-2.5 -mt-8 font-bold text-white">&gt</div>
+
+
+            </div>
+          </div>
+
+
         </div>
-        <img src="./assets/edux.png" alt="edux" class="mt-8 ml-8 mr-8 mb-10 w-[546px]">
-        <!-- <p class="text-blue-400"></p> -->
+        <div class="border h-[640px] w-[610px] bg-white shadow-lg rounded-3xl ml-[40px]">
+          <p class="mt-10 text-2xl font-bold">EduX开源工具集</p>
+          <p class="mx-10 mt-8 text-gray-400">LUNA团队设计的用于数据挖掘的开源工具集合</p>
+          <div class="flex justify-center mt-4 ">
+            <a href="https://github.com/bigdata-ustc/EduNLP" class="font-bold text-blue-400">EduNLP</a>
+            <p class="text-blue-400">·</p>
+            <a href="https://github.com/bigdata-ustc/EduData" class="font-bold text-blue-400">EduData</a>
+            <p class="text-blue-400">·</p>
+            <a href="https://github.com/bigdata-ustc/EduCDM" class="font-bold text-blue-400">EduCDM</a>
+            <p class="text-blue-400">·</p>
+            <a href="https://github.com/bigdata-ustc/EduKTM" class="font-bold text-blue-400">EduKTM</a>
+          </div>
+          <img src="./assets/edux.png" alt="edux" class="mt-8 ml-8 mr-8 mb-10 w-[546px]">
+          <!-- <p class="text-blue-400"></p> -->
+        </div>
+        
       </div>
-      
     </div>
   </div>
   
