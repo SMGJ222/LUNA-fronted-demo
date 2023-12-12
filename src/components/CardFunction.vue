@@ -6,11 +6,14 @@ defineProps({
     image: String,
 })
 
+import getURL from '../urltool';
+
+
 </script>
 
 <template>
     <div class="w-[300px] h-[400px] rounded-3xl">
-        <img :src="image" alt="2023-analysis" class="w-[300px] h-[150px]  rounded-t-3xl">
+        <img :src="getURL(image)" alt="2023-analysis" class="w-[300px] h-[150px]  rounded-t-3xl">
           
         <div class="h-[250px] w-[300px] p-5 rounded-b-3xl shadow-md bg-white  flex flex-col gap-2.5">
             <p class="text-2xl font-bold text-left text-black">{{ title }}</p>

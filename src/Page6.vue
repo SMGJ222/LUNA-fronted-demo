@@ -3,25 +3,28 @@ import CardAI from './components/CardAI.vue';
 
 const aicard=[{
     title:"试卷分析",
-    image:"/src/assets/AIarrow1.svg",
+    image:"AIarrow1.svg",
     description:"使用人工智能和数据挖掘技术在多个层次和维度上分析试卷"  ,
     color:"#4E89FF"
     
 },
 {
     title:"图片转写",
-    image:"/src/assets/AIarrow2.svg",
-    description:"精准识别试题照片中的文字、公式以及附图附表，适用于试题录入"  
+    image:"AIarrow2.svg",
+    description:"精准识别试题照片中的文字、公式以及附图附表，适用于试题录入",
+    color:"#FFAF4E"  
 },
 {
     title:"属性预估",
-    image:"/src/assets/AIarrow3.svg",
-    description:"从包含复杂语义的试题文本出发挖掘试题的难度、区分度等属性"  
+    image:"AIarrow3.svg",
+    description:"从包含复杂语义的试题文本出发挖掘试题的难度、区分度等属性" ,
+    color:"#A64EFF" 
 },
 {
     title:"相似度估计",
-    image:"/src/assets/AIarrow4.svg",
-    description:"基于人工智能算法给出两个题目之间的多维度相似度预估"  
+    image:"AIarrow4.svg",
+    description:"基于人工智能算法给出两个题目之间的多维度相似度预估",
+    color:"#74E149"  
 },
 ]
 
@@ -54,11 +57,11 @@ const aicard=[{
                     <div class="flex flex-col items-center justify-center gap-6"> 
                         <div class="flex gap-6">
                             <CardAI :title="aicard[0].title" :description="aicard[0].description" :image="aicard[0].image" :color="aicard[0].color" class=" bg-gradient-to-br from-[#FCFCFC]/48 to-[#E9EFFC]/100" ></CardAI>  
-                            <CardAI :title="aicard[1].title" :description="aicard[1].description" :image="aicard[1].image" class="bg-gradient-to-br from-[#FCFCFC] to-[#FBEED4]/100"></CardAI>
+                            <CardAI :title="aicard[1].title" :description="aicard[1].description" :image="aicard[1].image " :color="aicard[1].color" class="bg-gradient-to-br from-[#FCFCFC] to-[#FBEED4]/100"></CardAI>
                         </div>
                         <div class="flex gap-6">
-                            <CardAI :title="aicard[2].title" :description="aicard[2].description" :image="aicard[2].image" class="bg-gradient-to-br from-[#FCFCFC]/0 to-[#FFF8FF]/100"></CardAI>  
-                            <CardAI :title="aicard[3].title" :description="aicard[3].description" :image="aicard[3].image" class=" bg-gradient-to-br from-[#FAFFF9] to-[#FCFCFC]"></CardAI>          
+                            <CardAI :title="aicard[2].title" :description="aicard[2].description" :image="aicard[2].image" :color="aicard[2].color" class="bg-gradient-to-br from-[#FCFCFC]/0 to-[#FFF8FF]/100"></CardAI>  
+                            <CardAI :title="aicard[3].title" :description="aicard[3].description" :image="aicard[3].image" :color="aicard[3].color" class=" bg-gradient-to-br from-[#FAFFF9] to-[#FCFCFC]"></CardAI>          
                         </div>
                     </div>
 
