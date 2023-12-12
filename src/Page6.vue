@@ -40,7 +40,7 @@ const aicard=[{
                 <p class="text-3xl font-bold text-transparent bg-gradient-to-b from-pink-500 to-orange-500 bg-clip-text">开源生态</p> 
             </div>
             <div class="h-[640px] flex gap-[60px]">
-                <div class="border h-[640px] w-[610px] bg-white shadow-lg rounded-2xl mr-5 flex flex-col gap-10">
+                <div class="border h-[640px] w-[610px] bg-white shadow-lg rounded-2xl mr-5 flex flex-col gap-4">
                     <div class="flex flex-col items-center justify-center gap-5 mt-10">
                         <p class="font-semibold text-[32px]">特色教育功能开放体验</p>
                         <div class="w-[547px] leading-8 text-xl text-center">
