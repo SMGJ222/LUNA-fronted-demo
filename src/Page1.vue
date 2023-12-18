@@ -37,10 +37,19 @@ const paper_analysis=[{
     <div class="flex h-[1100px] w-full bg-[#FAFAFC] -z-10">
         <div class="flex flex-col items-center justify-center w-full gap-[100px]">
             <div class="flex flex-col items-center justify-center w-[956px] gap-8">
-                <h2 class="text-5xl font-medium">寓智于教，致知未来</h2>
-                <p class="text-xl font-semibold">
+                <h2 class="text-5xl font-medium text-center">寓智于教，致知未来</h2>
+                <div class="w-[956px] text-xl leading-8 font-semibold text-center">
+                    <span class="text-[#555555]">智慧教育知识图谱（LUNA）致力于为广大师生提供深层次、多维度的</span>
+                    <span class="text-[#3E89E0]">海量教育资源</span>
+                    <span class="text-[#555555]">处理分析工具，与智能、个性化的教育资源</span>
+                    <span class="text-[#3E89E0]">组织、分析与评估服务</span>
+                    <span class="text-[#555555]">。相关智能分析算法为</span>
+                    <span class="text-[#3E89E0]">高考试卷分析</span>
+                    <span class="text-[#555555]">、AI实验室等提供了强大的技术支持</span>
+                </div>
+                <!-- <p class="text-xl font-semibold">
                     智慧教育知识图谱（LUNA）致力于为广大师生提供深层次、多维度的海量教育资源处理分析工具，与智能、个性化的教育资源组织、分析与评估服务。相关智能分析算法为高考试卷分析、AI实验室等提供了强大的技术支持
-                </p>
+                </p> -->
             </div>
             <div class="flex items-center justify-center gap-5">
                 <button class="bg-transparent">

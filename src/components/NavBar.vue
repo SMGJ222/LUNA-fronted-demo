@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed top-0 left-0 z-10 flex items-center justify-center w-full h-20">
+    <nav class="fixed top-0 left-0 z-10 flex items-center justify-center w-full h-20 ">
         <div  id="NavBar" class="w-full flex max-w-[1440px] items-center justify-center ">
             <div id="NavBarLogo " class="justify-start grow">
                 <img src="@/assets/luna_logo.png" alt="logo" class="h-[42px]">
