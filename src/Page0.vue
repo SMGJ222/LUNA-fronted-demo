@@ -2,7 +2,7 @@
 <template>
     <!-- fixed top-0 left-0  -->
     <div class="w-full">
-        <div class="relative h-[590px] w-full flex flex-col bg-white border justify-center items-center">
+        <div class="relative h-[590px] w-full flex flex-col bg-white justify-center items-center">
             <div id="Page0-bg" class="h-[620px]  w-full flex  bg-gradient-to-bl to-[#D5F2F4] from-[#ABC5F3] via-[#C2DEF4] items-center justify-center">
                 <div id="Logo" class="flex items-center justify-center gap-3">
                     <div id="logo-img">
@@ -10,7 +10,7 @@
                     </div>
                     <div id="logo-text" class="h-[108px] flex flex-col gap-2">
                         <h1 class="text-5xl leading-[56px] text-[#222222] font-medium tracking-[0.24em] text-center">LUNA</h1>
-                        <p class="text-2xl text-center leading-8 text-[#555555]">智慧教育知识图谱</p>
+                        <p class="text-2xl text-center leading-8 text-[#555555] tracking-wider">智慧教育知识图谱</p>
                     </div>
                 </div>
             </div>

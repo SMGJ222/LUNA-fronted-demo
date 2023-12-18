@@ -11,13 +11,13 @@ import getURL from '../urltool';
 
 </script>
 <template>
-    <div class="w-[260px] h-[166px] border rounded-[10px] relative">
+    <div class="w-[260px] h-[166px] border-[#DDDDDD]/60 border rounded-[10px] relative">
         <div class="flex mt-5 ml-5">
-            <div class="rounded-full w-[5px] h-6" :style="{backgroundColor: color}"></div>
-            <p class="ml-2 text-xl font-bold">{{title}}</p>
+            <div class="rounded-full w-[5px] h-6 " :style="{backgroundColor: color}"></div>
+            <p class="ml-2 text-xl font-bold leading-8 tracking-wider">{{title}}</p>
         </div>
         
-        <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mt-2.5 text-lg">{{description}}</p>
+        <p class="text-[#9E9E9E] w-[220px] h-[84px] ml-5 mr-5 mt-2.5 text-lg leading-7 tracking-wider">{{description}}</p>
     
         <img :src="getURL(image)" class=" absolute bottom-[10px] right-[10px]">
     </div>

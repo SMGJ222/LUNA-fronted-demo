@@ -51,7 +51,7 @@ const paper=[{
                     产学研结合，相辅相成
                 </h2>
             </div>
-            <div class="w-[900px] text-xl font-medium leading-8">
+            <div class="w-[900px] text-xl font-medium leading-8 tracking-[0.03em]">
                     <span class="text-[#444444]"> LUNA自成立以来一直致力于探索前沿的智慧教育和大数据研究的</span>
                     <span class="text-[#3E89E0]">实践落地</span>
                     <span class="text-[#444444]">，并在技术落地的过程中为学术研究提供数据支撑、</span>

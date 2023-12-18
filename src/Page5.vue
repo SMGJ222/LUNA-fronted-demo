@@ -29,11 +29,11 @@ const Function=[
 <template>
     <div class="h-[1000px] bg-gradient-to-r from-[#F5F6FA] to-[#FFFBFB] flex justify-center items-center">
         <div class="w-[1296px] flex flex-col gap-12 justify-start items-start">
-            <div class="w-[414px] flex ">
-                <p class="text-4xl font-bold text-transparent bg-gradient-to-r from-pink-500 to-pink-700 bg-clip-text">特色</p>
-                <p class="text-4xl font-bold">教育功能，</p>
-                <p class="text-4xl font-bold text-transparent bg-gradient-to-r from-red-500 to-indigo-600 bg-clip-text">倾力</p> 
-                <p class="text-4xl font-bold">打造</p>
+            <div class="w-[418px] flex text-4xl font-bold tracking-wider ">
+                <p class="text-transparent bg-gradient-to-r from-[#FF3C3C] to-[#663CFF] bg-clip-text ">特色</p>
+                <p >教育功能，</p>
+                <p class="text-transparent bg-gradient-to-r from-[#F74C88] to-[#CA0F9E] bg-clip-text">倾力</p> 
+                <p >打造</p>
             </div>
             <div class="flex items-start justify-center gap-8">
                 <CardFunction v-for="(item,index) in Function" :key="index" :title="item.title" :image="item.image" :description="item.description" ></CardFunction>
