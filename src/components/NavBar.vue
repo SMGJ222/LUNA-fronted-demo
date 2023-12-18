@@ -1,3 +1,10 @@
+<script>
+window.addEventListener("scroll", function () {
+  var header = document.querySelector("nav");
+  header.classList.toggle("sticky", window.scrollY > 620);
+});
+</script>
+
 <template>
     <nav class="fixed top-0 left-0 z-10 flex items-center justify-center w-full h-20 ">
         <div  id="NavBar" class="w-full flex max-w-[1440px] items-center justify-center ">
@@ -25,6 +32,11 @@
 </template>
 
 <style>
+
+nav.sticky{
+    background-color: rgba(255, 255, 255,0.75);
+    /* background-color: blue; */
+}
 
 .list-item{
     @apply text-xl font-medium;
