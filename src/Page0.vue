@@ -9,14 +9,14 @@
                         <img src="@/assets/homepage_logo.png" class="w-32">
                     </div>
                     <div id="logo-text" class="h-[108px] flex flex-col gap-2">
-                        <h1 class="text-5xl leading-[56px] text-[#222222] font-medium tracking-[0.24em] text-center">LUNA</h1>
-                        <p class="text-2xl text-center leading-8 text-[#555555] tracking-wider">智慧教育知识图谱</p>
+                        <h1 class="text-5xl leading-[56px] text-[#222222] font-medium tracking-[0.24em] text-center font-noto">LUNA</h1>
+                        <p class="text-2xl text-center leading-8 text-[#555555] tracking-wider font-noto">智慧教育知识图谱</p>
                     </div>
                 </div>
             </div>
             <div id="SearchBox" class="absolute bottom-0 translate-y-1/2 flex items-center justify-center h-16 rounded-[32px] w-[640px] bg-white shadow gap-3 z-10">
                 <img src="@/assets/search.svg" class="w-5 ml-5">
-                <input type="text"  placeholder="三角函数" class="grow h-[26px] placeholder:text-[#737373] placeholder:font-medium">
+                <input type="text"  placeholder="三角函数" class="grow h-[26px] placeholder:text-[#737373] placeholder:font-noto placeholder:font-medium">
                 <button class="searching">搜索</button>
             </div>
         </div>
@@ -29,7 +29,7 @@
 }
 
 .searching{
-    @apply  w-32 my-1 h-[56px] mr-1 rounded-[32px] bg-gradient-to-r  from-[#7BAFEE] to-[#7786EB] text-xl text-white
+    @apply  w-32 my-1 h-[56px] mr-1 rounded-[32px] bg-gradient-to-r  from-[#7BAFEE] to-[#7786EB] text-xl text-white font-noto
 }
 
 </style>

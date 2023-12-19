@@ -12,7 +12,7 @@ window.addEventListener("scroll", function () {
                 <img src="@/assets/luna_logo.png" alt="logo" class="h-[42px]">
             </div>
             <div id="NavBarMenu" class="flex items-center justify-center gap-8 ">
-                <ul class="flex items-center justify-center gap-8">
+                <ul class="flex items-center justify-center gap-8 font-noto">
                     <li class="list-item">首页</li>
                     <li class="list-item">功能</li>
                     <li class="list-item">AI实验室</li>
