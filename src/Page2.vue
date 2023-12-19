@@ -47,11 +47,11 @@ const paper=[{
     <div class="z-20 h-[1000px] w-full flex justify-center items-center flex-col gap-[60px] bg-gradient-to-r from-[#DFE5F7] to-[#FFFBFB]">
         <div class="h-[300px] w-full flex flex-col justify-center items-center gap-8 z-50 mt-16">
             <div class="flex items-center justify-center w-full">
-                <h2 class="text-[#3D3D3D] font-medium text-5xl">
+                <h2 class="font-noto text-[#3D3D3D] font-medium text-5xl">
                     产学研结合，相辅相成
                 </h2>
             </div>
-            <div class="w-[900px] text-xl font-medium leading-8 tracking-[0.03em]">
+            <div class="w-[900px] text-xl font-medium leading-8 tracking-[0.03em] font-noto">
                     <span class="text-[#444444]"> LUNA自成立以来一直致力于探索前沿的智慧教育和大数据研究的</span>
                     <span class="text-[#3E89E0]">实践落地</span>
                     <span class="text-[#444444]">，并在技术落地的过程中为学术研究提供数据支撑、</span>

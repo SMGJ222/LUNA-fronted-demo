@@ -29,7 +29,7 @@ const Function=[
 <template>
     <div class="h-[1000px] bg-gradient-to-r from-[#F5F6FA] to-[#FFFBFB] flex justify-center items-center">
         <div class="w-[1296px] flex flex-col gap-12 justify-start items-start">
-            <div class="w-[418px] flex text-4xl font-bold tracking-wider ">
+            <div class="w-[418px] flex text-4xl font-bold tracking-wider font-roboto">
                 <p class="text-transparent bg-gradient-to-r from-[#FF3C3C] to-[#663CFF] bg-clip-text ">特色</p>
                 <p >教育功能，</p>
                 <p class="text-transparent bg-gradient-to-r from-[#F74C88] to-[#CA0F9E] bg-clip-text">倾力</p> 

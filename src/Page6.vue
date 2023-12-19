@@ -34,7 +34,7 @@ const aicard=[{
 <template>
     <div class="h-[1000px] w-full bg-gradient-to-r from-[#FBFFF5] to-[#DDE2F6] flex justify-center items-center">
         <div class="w-[1280px] flex flex-col gap-12">
-            <div class="flex text-4xl font-bold tracking-wider">
+            <div class="flex text-4xl font-bold tracking-wider font-roboto">
                 <p class="text-transparent bg-gradient-to-br from-sky-500 to-cyan-300 bg-clip-text">AI</p>
                 <p >实验室，打造</p>
                 <p class="text-transparent bg-gradient-to-b from-pink-500 to-orange-500 bg-clip-text">开源生态</p> 
@@ -42,8 +42,8 @@ const aicard=[{
             <div class="h-[640px] flex gap-[60px]">
                 <div class=" h-[640px] w-[610px] bg-white box rounded-3xl mr-5 flex flex-col gap-4">
                     <div class="flex flex-col items-center justify-center gap-5 mt-10">
-                        <p class="font-semibold text-[32px] leading-10 tracking-[0.03em] text-[#3D3D3D]">特色教育功能开放体验</p>
-                        <div class="w-[547px] leading-8 text-xl text-center tracking-[0.03em]">
+                        <p class="font-semibold text-[32px] leading-10 tracking-[0.03em] font-mono text-[#3D3D3D]">特色教育功能开放体验</p>
+                        <div class="w-[547px] leading-8 text-xl text-center tracking-[0.03em] font-mono">
                             <span class=" text-[#999999]">LUNA团队依托领先的技术实力，为用户提供</span>
                             <span class="font-semibold ">高品质</span>
                             <span class=" text-[#999999]">的教育产品及服务，目前推出了包括图片转写、 属性预估等多款</span>
@@ -69,14 +69,14 @@ const aicard=[{
                 </div>
                 <div class="h-[640px] w-[610px] bg-white box rounded-3xl flex flex-col justify-center items-center">
                     <div class="flex flex-col items-center justify-center gap-5">
-                        <p class="mt-10 text-[32px] leading-10 font-semibold tracking-[0.03em] text-[#3D3D3D]">EduX开源工具集</p>
-                        <div class="text-[#999999] text-xl tracking-[0.03em] leading-8">
+                        <p class="mt-10 text-[32px] leading-10 font-semibold tracking-[0.03em] text-[#3D3D3D] font-mono">EduX开源工具集</p>
+                        <div class="font-mono text-[#999999] text-xl tracking-[0.03em] leading-8">
                             <span class="">LUNA团队设计的用于数据挖掘的</span>
                             <span class="text-[#353739] font-semibold">开源</span>
                             <span class="">工具集合</span>
                         </div>
                         <!-- <p class="text-[#999999] text-xl">LUNA团队设计的用于数据挖掘的开源工具集合</p> -->
-                        <div class="flex justify-center text-[#4E89FF] text-lg font-semibold leading-[26px] tracking-[0.03em]">
+                        <div class="flex font-mono justify-center text-[#4E89FF] text-lg font-semibold leading-[26px] tracking-[0.03em]">
                             <a href="https://github.com/bigdata-ustc/EduNLP" >EduNLP</a>
                             <p>&ensp;·&ensp;</p>
                             <a href="https://github.com/bigdata-ustc/EduData" >EduData</a>

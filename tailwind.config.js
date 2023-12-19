@@ -6,10 +6,9 @@ export default {
   ],
   theme: {
     fontFamily:{
-      'heiti': ['黑体', 'SimHei', 'STHeiti', 'sans-serif'],
-      'noto': ['source-han-sans-simplified-cn', 'sans-serif'],
-      'mono': ['Sarasa Gothic Mono', 'monospace', 'serif'],
-      'roboto': ['Roboto', 'sans-serif'],
+      'noto': ['思源黑体'],
+      'mono': ['Sarasa Gothic SC'],
+      'roboto': ['Roboto'],
 
     },
     extend: {},
